@@ -30,32 +30,33 @@ header {
       }
     }
   }
-  div.header-top {
-    background-image: url("../images/header_01.jpg");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    height: 400px;
-    &-inside {
-      padding: 15px;
-      width: 700px;
-      background-color: rgba(255,255,255,0.4);
-      h2 {
-        padding: 0 5px;
-        border-bottom: solid #000 1px;
-        display: inline-block;
-      }
-      p {
-        margin-top: 5px;
-        padding: 5px;
-        font-size: 12px;
-      }
-      a {
-        margin-top: 5px;
-        padding: 5px !important;
-        width: 150px;
-        font-size: 12px;
-      }
+}
+
+div.header-top {
+  background-image: url("../images/header_01.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 400px;
+  &-inside {
+    padding: 15px;
+    width: 700px;
+    background-color: rgba(255,255,255,0.4);
+    h2 {
+      padding: 0 5px;
+      border-bottom: solid #000 1px;
+      display: inline-block;
+    }
+    p {
+      margin-top: 5px;
+      padding: 5px;
+      font-size: 12px;
+    }
+    a {
+      margin-top: 5px;
+      padding: 5px !important;
+      width: 150px;
+      font-size: 12px;
     }
   }
 }

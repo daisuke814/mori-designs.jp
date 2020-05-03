@@ -28,29 +28,30 @@ header ul.header-menu li:last-child a {
 header ul.header-menu li:last-child a:first-child {
   background-color: #bd2130;
 }
-header div.header-top {
+
+div.header-top {
   background-image: url("../images/header_01.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   height: 400px;
 }
-header div.header-top-inside {
+div.header-top-inside {
   padding: 15px;
   width: 700px;
   background-color: rgba(255, 255, 255, 0.4);
 }
-header div.header-top-inside h2 {
+div.header-top-inside h2 {
   padding: 0 5px;
   border-bottom: solid #000 1px;
   display: inline-block;
 }
-header div.header-top-inside p {
+div.header-top-inside p {
   margin-top: 5px;
   padding: 5px;
   font-size: 12px;
 }
-header div.header-top-inside a {
+div.header-top-inside a {
   margin-top: 5px;
   padding: 5px !important;
   width: 150px;
