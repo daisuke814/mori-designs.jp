@@ -1,0 +1,35 @@
+nav {
+  ul {
+    justify-content: space-between;
+    display: flex;
+    li~li {
+      margin-left: 15px;
+    }
+    li {
+      border-bottom: solid #fff 2px;
+      transition: 0.2s;
+      &:hover {
+        box-sizing: border-box;
+        border-bottom: solid #000 2px;
+      }
+      a {
+        padding: 10px 0;
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        span {
+          margin: 0;
+          font-size: 16px;
+          display: block;
+        }
+        small {
+          margin: 0;
+          font-size: 5px;
+          display: block;
+        }
+      }
+    }
+
+  }
+}

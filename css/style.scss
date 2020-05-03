@@ -1,0 +1,46 @@
+@import "header.scss";
+@import "footer.scss";
+@import "nav.scss";
+@import "main.scss";
+@import "contents.scss";
+@import "common.scss";
+
+// 全体設定
+* {
+  font-family: "ヒラギノ角ゴPro W3","Hiragino Kaku Gothic Pro","Noto Sans JP", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1080px;
+}
+
+// Common
+ul {
+  list-style: none;
+}
+
+.flex {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.flex-top {
+  justify-content: space-between;
+  display: flex;
+}
+
+.flex-all-center {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 20px #ccc;
+}
