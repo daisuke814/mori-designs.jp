@@ -5,10 +5,6 @@
 
     <?php wp_head(); ?>
 
-    <!--  Library  -->
-    <link rel="stylesheet" href="./css/ress.css">
-    <link rel="stylesheet" href="./css/animate.min.css">
-
     <!--  Bootstrap  -->
     <!--    <link rel="stylesheet" href="./css/bootstrap.min.css">-->
     <!--    <script src="./js/bootstrap.min.js"></script>-->
