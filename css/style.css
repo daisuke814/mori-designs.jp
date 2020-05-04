@@ -59,7 +59,7 @@ div.header-top-inside a {
 }
 
 div.header-page {
-  height: 20px;
+  height: 60px;
 }
 
 footer {
@@ -233,6 +233,20 @@ main a.news {
   width: 120px;
   font-size: 12px;
 }
+main table {
+  margin: 0 auto;
+  width: 960px !important;
+  border: solid #000 2px;
+  border-collapse: collapse;
+}
+main table th {
+  background-color: #e2e3e5;
+}
+main table th, main table td {
+  padding: 10px;
+  border: solid #000 2px;
+  border-collapse: collapse;
+}
 
 .button {
   padding: 10px;
@@ -269,6 +283,12 @@ form .wpcf7-submit {
 }
 
 div.wpcf7 {
+  margin: 0 auto;
+  padding: 40px 10px 20px;
+  box-shadow: 0px 0px 20px #ccc;
+  width: 960px;
+}
+div.wpcf7 form {
   margin: 0 auto;
   width: 700px;
 }

@@ -105,4 +105,19 @@ main {
     font-size: 12px;
   }
 
+  table {
+    margin: 0 auto;
+    width: 960px !important;
+    border: solid #000 2px;
+    border-collapse: collapse;
+    th {
+      background-color: #e2e3e5;
+    }
+    th,td {
+      padding: 10px;
+      border: solid #000 2px;
+      border-collapse: collapse;
+    }
+  }
+
 }

@@ -32,7 +32,13 @@ form {
 }
 div.wpcf7 {
   margin: 0 auto;
-  width: 700px;
+  padding: 40px 10px 20px;
+  box-shadow: 0px 0px 20px #ccc;
+  width: 960px;
+  form {
+    margin: 0 auto;
+    width: 700px;
+  }
   p {
     margin-bottom: 10px;
   }
