@@ -259,6 +259,14 @@ form .wpcf7-submit {
   width: 700px;
 }
 
+div.wpcf7 {
+  margin: 0 auto;
+  width: 700px;
+}
+div.wpcf7 p {
+  margin-bottom: 10px;
+}
+
 * {
   font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "Noto Sans JP", sans-serif;
 }
