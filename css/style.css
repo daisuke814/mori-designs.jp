@@ -220,6 +220,10 @@ main ul.customer-menu li:nth-child(3) {
 main ul.customer-menu li:last-child {
   width: 100%;
 }
+main#page h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 .button {
   padding: 10px;
@@ -233,6 +237,26 @@ main ul.customer-menu li:last-child {
 .button:hover {
   color: #000;
   background-color: rgba(255, 255, 255, 0);
+}
+
+form input[type=text], form input[type=email] {
+  padding: 5px;
+  width: 700px;
+  border: solid #000 2px;
+}
+form select {
+  padding: 5px;
+  width: 700px;
+  border: solid #000 2px;
+  border-radius: 0;
+}
+form textarea {
+  padding: 10px;
+  width: 700px;
+  border: solid #000 2px;
+}
+form .wpcf7-submit {
+  width: 700px;
 }
 
 * {

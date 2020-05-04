@@ -78,6 +78,7 @@
                         </a>
                     </li>
                 </ul>
+                <a href="#">もっと見る</a>
             </article>
             <article>
                 <h2>お客様メニュー</h2>
@@ -89,7 +90,7 @@
                             すでにお取り引きを行っている場合はこちらをご利用ください。<br>
                             メッセージやファイルのやり取りを円滑に行うことができます。
                         </li>
-                        <li><a href="#" class="button">お取り引きページへ</a></li>
+                        <li><a href="https://customer.mori-designs.jp/" target="_blank" class="button">お取り引きページへ</a></li>
                     </ul>
                     <ul class="customer-menu box-shadow">
                         <li>はじめてのお客様</li>
