@@ -2,7 +2,12 @@
 
 <?php get_header() ?>
 
+
 <main id="page">
+
+    <div class="header-top header-page flex-all-center">
+
+    </div>
 
     <div class="wrapper">
         <?php

@@ -78,7 +78,7 @@
                         </a>
                     </li>
                 </ul>
-                <a href="#">もっと見る</a>
+                <a href="#" class="button news">もっと見る</a>
             </article>
             <article>
                 <h2>お客様メニュー</h2>
@@ -87,7 +87,7 @@
                         <li>お取り引き中のお客様</li>
                         <li><img src="<?php bloginfo("template_directory"); ?>/images/user1.svg" alt=""></li>
                         <li>
-                            すでにお取り引きを行っている場合はこちらをご利用ください。<br>
+                            すでにお取り引きを行っている場合はこちらをご利用ください。
                             メッセージやファイルのやり取りを円滑に行うことができます。
                         </li>
                         <li><a href="https://customer.mori-designs.jp/" target="_blank" class="button">お取り引きページへ</a></li>
@@ -99,7 +99,7 @@
                             制作に関するご相談・ご依頼はこちらのフォームをご利用ください。
                             ご質問・ご相談・お見積もりは無料で承っております。
                         </li>
-                        <li><a href="#" class="button">無料で相談する</a></li>
+                        <li><a href="<?php bloginfo("url"); ?>/consultation" class="button">無料で相談する</a></li>
                     </ul>
                     <ul class="customer-menu box-shadow">
                         <li>その他のお問い合わせ</li>
@@ -107,7 +107,7 @@
                         <li>
                             著作権・肖像権・権利侵害の報告やその他のお問い合わせについてはこちらのフォームをご利用ください。
                         </li>
-                        <li><a href="#" class="button">その他お問い合わせ</a></li>
+                        <li><a href="<?php bloginfo("url"); ?>/report" class="button">その他お問い合わせ</a></li>
                     </ul>
                 </div>
 

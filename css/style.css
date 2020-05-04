@@ -58,6 +58,10 @@ div.header-top-inside a {
   font-size: 12px;
 }
 
+div.header-page {
+  height: 20px;
+}
+
 footer {
   margin-top: 60px;
   color: #fff;
@@ -223,6 +227,11 @@ main ul.customer-menu li:last-child {
 main#page h2 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+main a.news {
+  margin: 30px auto;
+  width: 120px;
+  font-size: 12px;
 }
 
 .button {
