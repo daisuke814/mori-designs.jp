@@ -5,6 +5,14 @@
             <dl>
                 <dt>お取り引きについて</dt>
                 <dd>
+                    <?php
+                        wp_nav_menu(
+                            array(
+                                "thema-location" => "footer_1",
+                                "container" => "",
+                            )
+                        );
+                    ?>
                     <ul>
                         <li><a href="#">既にお取り引きされている方について</a></li>
                         <li><a href="#">決済について</a></li>
@@ -16,6 +24,14 @@
             <dl>
                 <dt>このサイトについて</dt>
                 <dd>
+                    <?php
+                        wp_nav_menu(
+                            array(
+                                "thema-location" => "footer_2",
+                                "container" => "",
+                            )
+                        );
+                    ?>
                     <ul>
                         <li><a href="#">特定商取引法に基づく記載</a></li>
                         <li><a href="#">プライバシポリシー</a></li>
@@ -26,6 +42,14 @@
             <dl>
                 <dt>トップ</dt>
                 <dd>
+                    <?php
+                        wp_nav_menu(
+                            array(
+                                "thema-location" => "footer_3",
+                                "container" => "",
+                            )
+                        );
+                    ?>
                     <ul>
                         <li><a href="#">こだわり</a></li>
                         <li><a href="#">料金</a></li>

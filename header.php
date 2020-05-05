@@ -33,11 +33,12 @@
             </h1>
             <nav id="top-nav">
                 <?php
-                $args = array(
-                    'menu_class' => 'header menu',
-                    'container' => false,
-                );
-                wp_nav_menu($args);
+                    wp_nav_menu(
+                        array(
+                            "thema-location" => "global",
+                            "container" => "",
+                        )
+                    );
                 ?>
 <!--                <ul>-->
 <!--                    <li><a href="#"><span>ホーム</span></a></li>-->
