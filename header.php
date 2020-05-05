@@ -35,7 +35,7 @@
                 <?php
                     wp_nav_menu(
                         array(
-                            "thema_location" => "global",
+                            "theme_location" => "global",
                             "container" => "",
                         )
                     );
