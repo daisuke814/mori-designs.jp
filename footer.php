@@ -8,7 +8,7 @@
                     <?php
                         wp_nav_menu(
                             array(
-                                "thema-location" => "footer_1",
+                                "thema_location" => "footer_1",
                                 "container" => "",
                             )
                         );
@@ -21,7 +21,7 @@
                     <?php
                         wp_nav_menu(
                             array(
-                                "thema-location" => "footer_2",
+                                "thema_location" => "footer_2",
                                 "container" => "",
                             )
                         );
@@ -34,7 +34,7 @@
                     <?php
                         wp_nav_menu(
                             array(
-                                "thema-location" => "footer_3",
+                                "thema_location" => "footer_3",
                                 "container" => "",
                             )
                         );
