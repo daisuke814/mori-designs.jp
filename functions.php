@@ -9,7 +9,7 @@
     add_action( 'wp_enqueue_scripts', 'my_styles');
 
     //
-    function register_my_menus() {
+    function my_menus() {
         register_nav_menus(
             array(
                 //複数のナビゲーションメニューを登録する関数
@@ -21,6 +21,6 @@
             )
         );
     }
-    add_action( 'after_setup_theme', 'register_my_menus' );
+    add_action( 'after_setup_theme', 'my_menus' );
 
 ?>
