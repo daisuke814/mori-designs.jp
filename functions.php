@@ -8,21 +8,18 @@
     }
     add_action( 'wp_enqueue_scripts', 'my_styles');
 
-    // メニューの有効
-    function enable_menu() {
-        add_theme_support( 'menus');  //メニュー機能をONadd_theme_support( 'menus');  //メニュー機能をON
-    }
-    add_action("menus","menu");
-
     //
     function register_my_menus() {
-        register_nav_menus( array( //複数のナビゲーションメニューを登録する関数
-            //'「メニューの位置」の識別子' => 'メニューの説明の文字列',
-            'global' => 'グローバルメニュー',
-            'footer_1'  => 'フッターメニュー1',
-            'footer_2'  => 'フッターメニュー2',
-            'footer_3'  => 'フッターメニュー3',
-        ) );
+        register_nav_menus(
+            array(
+                //複数のナビゲーションメニューを登録する関数
+                //'「メニューの位置」の識別子' => 'メニューの説明の文字列',
+                'global' => 'グローバルメニュー',
+                'footer_1'  => 'フッターメニュー1',
+                'footer_2'  => 'フッターメニュー2',
+                'footer_3'  => 'フッターメニュー3',
+            )
+        );
     }
     add_action( 'after_setup_theme', 'register_my_menus' );
 

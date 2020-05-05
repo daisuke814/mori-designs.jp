@@ -40,17 +40,6 @@
                         )
                     );
                 ?>
-<!--                <ul>-->
-<!--                    <li><a href="#"><span>ホーム</span></a></li>-->
-<!--                    <li><a href="#"><span>こだわり</span></a></li>-->
-<!--                    <li><a href="#"><span>料金</span></a></li>-->
-<!--                    <li><a href="#"><span>制作事例</span></a></li>-->
-<!--                    <li><a href="#"><span>お問い合わせ</span></a></li>-->
-<!--                </ul>-->
             </nav>
-            <!--            <ul class="header-menu">-->
-            <!--                <li><a href="#">既にお取引している方</a></li>-->
-            <!--                <li><a href="#">ご相談</a></li>-->
-            <!--            </ul>-->
         </div>
     </header>
