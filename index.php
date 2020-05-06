@@ -10,7 +10,7 @@
                     画像 フォント 色 レイアウト を忠実に設計し美しく見やすいデザインを提供します。<br>
                     バナー・ポスター・Webデザイン・冊子デザインなどお任せください！
                 </p>
-                <a href="#" class="button">さっそく相談する</a>
+                <a href="<?php bloginfo("url"); ?>/consultation" class="button">さっそく相談する</a>
             </div>
         </div>
     </div>
